@@ -1,0 +1,20 @@
+🧩 How to use this provider ? 
+   
+   - To install this provider, copy and paste this code into your Terraform configuration. Then, run terraform init.
+
+🧊 configuration:
+
+# This is the configuration of the provider of the Azure.
+
+terraform {
+  required_providers {
+    azurerm = {
+      source = "hashicorp/azurerm"
+      version = "4.40.0"
+    }
+  }
+}
+
+provider "azurerm" {
+  # Configuration options
+}
